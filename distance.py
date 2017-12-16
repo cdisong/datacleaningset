@@ -63,10 +63,10 @@ columns = ['JOURNEY', 'DISTANCE']
 distance = distance[columns]
 distance = distance.drop_duplicates(keep='first')
 
-j = pd.read_csv(j, low_memory=False)
+# j = pd.read_csv(j, low_memory=False)
 
-columns = ['ORIGIN', 'DEST', 'DISTANCE']
-j = j['columns']
+# columns = ['ORIGIN', 'DEST', 'DISTANCE']
+# j = j['columns']
 
-j = j.drop_duplicated(keep='first')
-j.shape 
+# j = j.drop_duplicated(keep='first')
+# j.shape 
