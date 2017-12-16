@@ -1,4 +1,5 @@
 import pandas as pd 
+import numpy as np  
 from pandas.tools.plotting import scatter_matrix
 import matplotlib.pyplot as plt
 from sklearn import model_selection
